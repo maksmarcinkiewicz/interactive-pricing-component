@@ -1,4 +1,5 @@
 {
+  "homepage": "https://maksmarcinkiewicz.github.io/interactive-pricing-component/",
   "name": "interactive-pricing-component",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,7 @@
     "react": "^17.0.2",
     "react-bootstrap-range-slider": "^2.0.2",
     "react-dom": "^17.0.2",
-    "react-input-slider": "^6.0.0",
+    "react-input-slider": "^6.0.0", 
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
     "web-vitals": "^1.1.2"
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
