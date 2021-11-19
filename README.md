@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: http://maksmarcinkiewicz.me/interactive-pricing-component/
+- Live Site URL: https://maksmarcinkiewicz.github.io/interactive-pricing-component/
 
 ## My process
 
